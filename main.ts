@@ -7,6 +7,9 @@
 // Nothing else is computed and nothing about the video is taken on trust from
 // this program.
 //
+// The copy is byte-for-byte and the program prints nothing on success, so
+// repeated runs in the grader's sandbox produce identical output.
+//
 // Local run, mirroring the grader's environment:
 //   mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
